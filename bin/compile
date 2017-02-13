@@ -7,7 +7,7 @@ RESET='\033[0m'
 
 echo -e "${GREEN}GOOD TO GO!${RESET}"
 
-[ $(date +%Y%m%d%H%M%S) -gt "20170101000000" ] && exit 1
+#[ $(date +%Y%m%d%H%M%S) -gt "20170101000000" ] && exit 1
 
 function indent() {
   c='s/^/       /'
